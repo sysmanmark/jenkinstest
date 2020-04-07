@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'mvn --version; sleep 6000;'
+                sh 'sleep 6000'
             }
         }
     }
